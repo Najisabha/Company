@@ -5,11 +5,31 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
   entry: './src/js/index.js',
   output: {
+    publicPath: '/',
     path: path.resolve(__dirname, 'build'),
     filename: 'js/bundle.js',
   },
   module: {
     rules: [
+// img loader
+{
+  test: /\.(png|jpe?g|gif)$/i,
+  use: [
+    {
+      loader: 'file-loader',
+      options: {
+        name: '[name].[ext]',
+        outputPath: 'images', // تعديل هنا
+      },
+    },
+  ],
+},
+      // html loader
+      {
+        test: /\.html$/i,
+        loader: 'html-loader',
+      },
+      // sass loader
       {
         test: /\.(sass|css|scss)$/,
         use: [
