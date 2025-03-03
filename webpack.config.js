@@ -11,19 +11,22 @@ module.exports = {
   },
   module: {
     rules: [
-// img loader
-{
-  test: /\.(png|jpe?g|gif)$/i,
-  use: [
-    {
-      loader: 'file-loader',
-      options: {
-        name: '[name].[ext]',
-        outputPath: 'images', // تعديل هنا
+      //Images
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: "./images/[name][ext]"
+        }
       },
-    },
-  ],
-},
+      // Fonts
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: "./fonts/[name][ext]"
+        }
+      },
       // html loader
       {
         test: /\.html$/i,
@@ -42,7 +45,7 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, 'build'), // المسار الذي يحتوي على ملفاتك
+      directory: path.join(__dirname, 'build'), 
     },
     devMiddleware: {
       writeToDisk: true,
