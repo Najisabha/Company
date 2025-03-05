@@ -1,4 +1,21 @@
-$najisabha : #ff0000;
-h1 {
-    color: $najisabha;
+$main-color : #FF7766;
+$costom-color : #EEE;
+
+.top-menu {
+    .navbar{
+        font-weight: bold;
+        padding: 0 10px !important;
+        background-color: #fff !important;
+        .navbar-nav {
+            li > a {
+                    color: #8a8a8a;
+                    transition: 0.5s all ease;
+                    &:hover {
+                        color: $main-color !important;
+                        background-color: $costom-color !important;
+                        border-bottom: 1px solid $main-color !important;
+                    }
+                   }
+            }
+    }
 }
