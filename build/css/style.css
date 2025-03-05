@@ -1,6 +1,18 @@
 /*!**************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/style.scss ***!
   \**************************************************************************************************************/
+@font-face {
+  font-family: "Cairo-Regular";
+  src: url(/fonts/Cairo-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Cairo-Regular", sans-serif !important;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 .top-menu .navbar {
   font-weight: bold;
   padding: 0 10px !important;
@@ -14,6 +26,12 @@
   color: #FF7766 !important;
   background-color: #EEE !important;
   border-bottom: 1px solid #FF7766 !important;
+}
+
+@media (max-width: 991px) {
+  .top-menu .navbar {
+    padding: 0px !important;
+  }
 }
 /*!*************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css ***!

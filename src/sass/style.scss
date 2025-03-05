@@ -1,6 +1,17 @@
 $main-color : #FF7766;
 $costom-color : #EEE;
 
+@font-face {
+    font-family: 'Cairo-Regular';
+    src: url('../fonts/Cairo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Cairo-Regular', sans-serif !important;
+    font-size: 16px;
+    line-height: 1.6;
+}
 .top-menu {
     .navbar{
         font-weight: bold;
@@ -19,3 +30,10 @@ $costom-color : #EEE;
             }
     }
 }
+@media (max-width: 991px) {
+    .top-menu {
+      .navbar {
+        padding: 0px !important;
+      }
+    }
+  }
