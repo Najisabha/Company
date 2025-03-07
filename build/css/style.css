@@ -40,7 +40,7 @@ body {
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(65, 155, 155, 0.5);
+  background-color: rgba(65, 155, 155, 0.7);
   color: #fff;
   display: flex !important;
   justify-content: center;
@@ -55,10 +55,43 @@ body {
 .carrousel-top .row .carousel .carousel-indicators li.active {
   background-color: #FF7766;
 }
+.carrousel-top .row .carousel .carousel-caption h1 {
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.carrousel-top .row .carousel .carousel-caption h4 {
+  width: 60%;
+  color: #EEE;
+}
+.carrousel-top .row .carousel .carousel-caption .custom-btn {
+  background-color: #fff;
+  color: #FF7766;
+  border: 1px solid #FF7766;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: 0.5s all ease;
+}
+.carrousel-top .row .carousel .carousel-caption .custom-btn:hover {
+  background-color: #FF7766;
+  color: #fff;
+}
 
 @media (max-width: 991px) {
   .top-menu .navbar {
     padding: 0px !important;
+  }
+}
+@media (max-width: 767px) {
+  .carrousel-top .row .carousel .carousel-inner .carousel-item img {
+    height: 300px;
+  }
+  .carrousel-top .row .carousel .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .carrousel-top .row .carousel .carousel-caption h4 {
+    width: 100%;
   }
 }
 /*!********************************************************************************************************************************************!*\
