@@ -78,6 +78,21 @@ body {
   color: #fff;
 }
 
+.who-are-we .custom-paragraph {
+  line-height: 2em;
+}
+.who-are-we .custom-btn-main {
+  padding: 20px;
+  background-color: #FF7766 !important;
+  color: #fff;
+  font-weight: bold;
+  width: 250px;
+}
+.who-are-we .custom-btn-main:hover {
+  background-color: #EEE !important;
+  color: #000;
+}
+
 @media (max-width: 991px) {
   .top-menu .navbar {
     padding: 0px !important;
