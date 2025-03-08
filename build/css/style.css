@@ -93,6 +93,38 @@ body {
   color: #000;
 }
 
+.latest-projects #latest-company-projects {
+  width: 80%;
+}
+.latest-projects #latest-company-projects .thumbnali2 {
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.latest-projects #latest-company-projects .thumbnali2 .caption2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(65, 155, 155, 0.7);
+  max-width: 100%;
+  height: 100%;
+  padding: 2%;
+  text-align: center;
+  color: #fff !important;
+  display: none;
+}
+.latest-projects #latest-company-projects .thumbnali2 .project-category {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  background-color: rgba(240, 240, 240, 0.75);
+  font-weight: bold;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 5px 20px 0px #200000;
+}
+
 @media (max-width: 991px) {
   .top-menu .navbar {
     padding: 0px !important;
