@@ -8,4 +8,13 @@ import 'popper.js/dist/popper.min';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import '@fortawesome/fontawesome-free/js/all.min.js';
 
-console.log('Hello, world!');
+$(function(){
+    $('.thumbnail2').hover(function(){
+        $(this).find('.project-category').hide();
+        $(this).find('.caption2').slideDown(250);
+    }
+    , function(){
+        $(this).find('.caption2').slideUp(250);
+        $(this).find('.project-category').show();
+    });
+});
