@@ -12,6 +12,37 @@ body {
     font-size: 16px;
     line-height: 1.6;
 }
+.custom-btn-main {
+    padding: 20px !important;
+    background-color: $main-color !important;
+    color: #fff;
+    font-weight: bold;
+    width: 250px !important;
+    border-radius: 10px !important;
+    &:hover {
+        background-color: $costom-color !important;
+        color: #000;
+        transform: scale(1.1);
+        transition: 0.2s all ease;
+    }
+    &:active {
+        transform: scale(0.9);
+        transition: 0.2s all ease;
+    }
+} 
+.custom-btn {
+    background-color: #fff;
+    color: $main-color;
+    border: 1px solid $main-color;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.5s all ease;
+    &:hover {
+        background-color: $main-color;
+        color: #fff;
+    }
+}
 .top-menu {
     .navbar{
         font-weight: bold;
@@ -76,19 +107,6 @@ body {
                 width: 60%;
                 color: $costom-color;
             }
-            .custom-btn {
-                background-color: #fff;
-                color: $main-color;
-                border: 1px solid $main-color;
-                padding: 10px 20px;
-                border-radius: 5px;
-                margin-top: 20px;
-                transition: 0.5s all ease;
-                &:hover {
-                    background-color: $main-color;
-                    color: #fff;
-                }
-            }
           }
         }
     }
@@ -96,20 +114,10 @@ body {
 .who-are-we {
             .custom-paragraph {
                 line-height: 2em;
-            }
-            .custom-btn-main {
-                padding: 20px;
-                background-color: $main-color !important;
-                color: #fff;
-                font-weight: bold;
-                width: 250px;
-                &:hover {
-                    background-color: $costom-color !important;
-                    color: #000;
-                }
-            }    
+            }   
 }
 .latest-projects {
+    background-color: #ffffcc;
     #latest-company-projects {
         width: 80%;
         .thumbnali2 {
@@ -139,6 +147,18 @@ body {
                 border-bottom-left-radius: 10px;
                 box-shadow: 0px 5px 20px 0px#200000;
             }
+        }
+        a.carousel-control-prev {
+            position: absolute;
+            left: -5%;
+            color: #252525;
+            width: 0;
+        }
+        a.carousel-control-next {
+            position: absolute;
+            right: -6%;
+            color: #252525;
+            width: 0;
         }
     }
 }

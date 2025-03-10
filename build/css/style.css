@@ -13,6 +13,39 @@ body {
   line-height: 1.6;
 }
 
+.custom-btn-main {
+  padding: 20px !important;
+  background-color: #FF7766 !important;
+  color: #fff;
+  font-weight: bold;
+  width: 250px !important;
+  border-radius: 10px !important;
+}
+.custom-btn-main:hover {
+  background-color: #EEE !important;
+  color: #000;
+  transform: scale(1.1);
+  transition: 0.2s all ease;
+}
+.custom-btn-main:active {
+  transform: scale(0.9);
+  transition: 0.2s all ease;
+}
+
+.custom-btn {
+  background-color: #fff;
+  color: #FF7766;
+  border: 1px solid #FF7766;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: 0.5s all ease;
+}
+.custom-btn:hover {
+  background-color: #FF7766;
+  color: #fff;
+}
+
 .top-menu .navbar {
   font-weight: bold;
   padding: 0 10px !important;
@@ -64,35 +97,14 @@ body {
   width: 60%;
   color: #EEE;
 }
-.carrousel-top .row .carousel .carousel-caption .custom-btn {
-  background-color: #fff;
-  color: #FF7766;
-  border: 1px solid #FF7766;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-top: 20px;
-  transition: 0.5s all ease;
-}
-.carrousel-top .row .carousel .carousel-caption .custom-btn:hover {
-  background-color: #FF7766;
-  color: #fff;
-}
 
 .who-are-we .custom-paragraph {
   line-height: 2em;
 }
-.who-are-we .custom-btn-main {
-  padding: 20px;
-  background-color: #FF7766 !important;
-  color: #fff;
-  font-weight: bold;
-  width: 250px;
-}
-.who-are-we .custom-btn-main:hover {
-  background-color: #EEE !important;
-  color: #000;
-}
 
+.latest-projects {
+  background-color: #ffffcc;
+}
 .latest-projects #latest-company-projects {
   width: 80%;
 }
@@ -123,6 +135,18 @@ body {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   box-shadow: 0px 5px 20px 0px #200000;
+}
+.latest-projects #latest-company-projects a.carousel-control-prev {
+  position: absolute;
+  left: -5%;
+  color: #252525;
+  width: 0;
+}
+.latest-projects #latest-company-projects a.carousel-control-next {
+  position: absolute;
+  right: -6%;
+  color: #252525;
+  width: 0;
 }
 
 @media (max-width: 991px) {
