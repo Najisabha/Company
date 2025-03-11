@@ -162,6 +162,36 @@ body {
   overflow: hidden;
 }
 
+.said-about-company .custom-img {
+  border-radius: 10px;
+  margin: 15px;
+}
+.said-about-company .custom-paragraph {
+  line-height: 2em;
+}
+.said-about-company .carousel-control-prev,
+.said-about-company .carousel-control-next {
+  color: #252222;
+}
+.said-about-company .carousel-control-prev:hover, .said-about-company .carousel-control-prev:focus, .said-about-company .carousel-control-prev:active,
+.said-about-company .carousel-control-next:hover,
+.said-about-company .carousel-control-next:focus,
+.said-about-company .carousel-control-next:active {
+  color: #FF7766;
+}
+.said-about-company a.carousel-control-prev {
+  position: absolute;
+  left: 5%;
+  color: #252525;
+  width: 0;
+}
+.said-about-company a.carousel-control-next {
+  position: absolute;
+  right: 5%;
+  color: #252525;
+  width: 0;
+}
+
 @media (max-width: 991px) {
   .top-menu .navbar {
     padding: 0px !important;

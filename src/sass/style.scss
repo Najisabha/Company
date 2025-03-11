@@ -173,6 +173,37 @@ body {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+.said-about-company {
+    .custom-img {
+        border-radius: 10px;
+        margin: 15px;
+
+    }
+    .custom-paragraph {
+        line-height: 2em;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        color: #252222;
+        &:hover,
+        &:focus,
+        &:active {
+            color: $main-color;
+        }
+    }
+    a.carousel-control-prev {
+        position: absolute;
+        left: 5%;
+        color: #252525;
+        width: 0;
+    }
+    a.carousel-control-next{
+        position: absolute;
+        right: 5%;
+        color: #252525;
+        width: 0;
+    }
+}
 @media (max-width: 991px) {
     .top-menu {
       .navbar {
