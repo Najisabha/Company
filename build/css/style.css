@@ -192,6 +192,10 @@ body {
   width: 0;
 }
 
+.clients {
+  background-color: aqua;
+}
+
 @media (max-width: 991px) {
   .top-menu .navbar {
     padding: 0px !important;
