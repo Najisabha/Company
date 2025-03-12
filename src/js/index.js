@@ -18,3 +18,7 @@ $(function(){
         $(this).find('.project-category').show();
     });
 });
+// copy right 
+let copyRight = document.getElementById('copy-right');
+let date = new Date();
+copyRight.innerHTML = date.getFullYear();

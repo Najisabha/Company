@@ -39,17 +39,17 @@ body {
 }
 
 .custom-btn {
-  background-color: #fff;
-  color: #FF7766;
-  border: 1px solid #FF7766;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-top: 20px;
-  transition: 0.5s all ease;
+  background-color: #fff !important;
+  color: #FF7766 !important;
+  border: 1px solid #FF7766 !important;
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+  margin-top: 20px !important;
+  transition: 0.5s all ease !important;
 }
 .custom-btn:hover {
-  background-color: #FF7766;
-  color: #fff;
+  background-color: #FF7766 !important;
+  color: #fff !important;
 }
 
 .top-menu .navbar {
@@ -196,6 +196,86 @@ body {
   background-color: aqua;
 }
 
+.latest-posts .card-body {
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+  background-color: #fff;
+  top: -17px;
+  left: -5%;
+}
+.latest-posts .card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+.latest-posts .card-text {
+  font-size: 16px;
+}
+
+footer {
+  height: 450px;
+  background-color: #393939;
+}
+footer h2 {
+  color: #EEE;
+  font-size: 150%;
+}
+footer .line1 {
+  width: 5%;
+  border-top: 3px solid #EEE;
+  margin: auto;
+}
+footer .line2 {
+  width: 70%;
+  border-top: 3px solid #EEE;
+  margin: auto;
+}
+footer #footer-nav-links a {
+  text-decoration: none;
+  color: #bbb;
+  margin-left: 15px;
+  font-size: 90%;
+}
+footer #footer-nav-links a:hover {
+  color: #FF7766;
+}
+footer #footer-form {
+  direction: ltr;
+  width: 40%;
+  margin: auto;
+}
+footer .form input {
+  background-color: #202020;
+  border-radius: 1px;
+  border: 0px;
+}
+footer .form input:focus {
+  border-color: #FF7766;
+  box-shadow: 0 0 2px 0 #EEE;
+  color: #FF7766;
+}
+footer .form .btn-light:hover, footer .form .btn-light:focus {
+  color: #EEE !important;
+  background-color: #363636 !important;
+  border: 1px solid #FF7766 !important;
+  transition: 0.3s !important;
+}
+footer .copyright {
+  color: #bbb;
+  font-size: 90%;
+  font-weight: bold;
+}
+footer .copyright-link {
+  color: #FF7766;
+  font-size: 90%;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer .copyright-link:hover {
+  color: #EEE;
+}
+
 @media (max-width: 991px) {
   .top-menu .navbar {
     padding: 0px !important;
@@ -210,6 +290,9 @@ body {
   }
   .carrousel-top .row .carousel .carousel-caption h4 {
     width: 100%;
+  }
+  footer #footer-form {
+    width: 90%;
   }
 }
 /*!********************************************************************************************************************************************!*\
