@@ -77,10 +77,10 @@ module.exports = {
       template: './src/add-blog.html',
       filename: 'add-blog.html',
     }),
-    // new HtmlWebpackPlugin({
-    //   template: './src/blog-details.html',
-    //   filename: 'blog-details.html',
-    // }),
+    new HtmlWebpackPlugin({
+      template: './src/blog-details.html',
+      filename: 'blog-details.html',
+    }),
     // new HtmlWebpackPlugin({
     //   template: './src/blog.html',
     //   filename: 'blog.html',
