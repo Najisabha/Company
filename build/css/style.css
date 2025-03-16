@@ -66,6 +66,11 @@ body {
   background-color: #EEE !important;
   border-bottom: 1px solid #FF7766 !important;
 }
+.top-menu .navbar .actives {
+  color: #FF7766 !important;
+  background-color: #EEE !important;
+  border-bottom: 1px solid #FF7766 !important;
+}
 
 .carrousel-top .row {
   display: block !important;
@@ -294,6 +299,33 @@ footer .copyright-link:hover {
   footer #footer-form {
     width: 90%;
   }
+}
+/*!****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/project.scss ***!
+  \****************************************************************************************************************/
+.banner {
+  position: relative;
+}
+.banner #banner-img {
+  background-image: url(/images/projects-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  height: 250px;
+}
+.banner .overlay {
+  position: absolute;
+  background-color: rgba(65, 155, 155, 0.5);
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.banner .title1 {
+  font-weight: bold;
+  color: #fff;
 }
 /*!********************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.min.css ***!

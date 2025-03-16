@@ -1,4 +1,5 @@
 import '../sass/style.scss';
+import '../sass/project.scss';
 // import '@laylazi/bootstrap-rtl/dist/js/bootstrap.min.js';
 // import '@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';

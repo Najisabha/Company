@@ -65,7 +65,13 @@ body {
                     }
                    }
             }
+            .actives {
+                color: $main-color !important;
+                background-color: $costom-color !important;
+                border-bottom: 1px solid $main-color !important;
+            }
     }
+
 }
 .carrousel-top {
     .row {
