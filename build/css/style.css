@@ -327,6 +327,21 @@ footer .copyright-link:hover {
   font-weight: bold;
   color: #fff;
 }
+
+.our-works .custom-btn-2 {
+  color: #363636;
+  background-color: #fff;
+  border: none;
+  border-radius: 1px;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+.our-works .custom-btn-2:hover, .our-works .custom-btn-2:focus {
+  color: #ffffff;
+  background-color: #FF7766;
+}
 /*!********************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.min.css ***!
   \********************************************************************************************************************************************/
