@@ -22,9 +22,6 @@ let date = new Date();
 copyRight.innerHTML = date.getFullYear();
 let modalId = $('#image-gallery');
 
-$(document)
-  .ready(function () {
-
     loadGallery(true, 'a.thumbnail');
 
     //This function disables buttons when needed
@@ -39,20 +36,13 @@ $(document)
           .hide();
       }
     }
-
-    /**
-     *
-     * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
-     * @param setClickAttr  Sets the attribute for the click handler.
-     */
-
     function loadGallery(setIDs, setClickAttr) {
       let current_image,
         selector,
         counter = 0;
 
       $('#show-next-image, #show-previous-image')
-        .click(function () {
+        .on('click',function () {
           if ($(this)
             .attr('id') === 'show-previous-image') {
             current_image--;
@@ -87,28 +77,3 @@ $(document)
           updateGallery($(this));
         });
     }
-  });
-
-// build key actions
-$(document)
-  .keydown(function (e) {
-    switch (e.which) {
-      case 37: // left
-        if ((modalId.data('bs.modal') || {})._isShown && $('#show-previous-image').is(":visible")) {
-          $('#show-previous-image')
-            .click();
-        }
-        break;
-
-      case 39: // right
-        if ((modalId.data('bs.modal') || {})._isShown && $('#show-next-image').is(":visible")) {
-          $('#show-next-image')
-            .click();
-        }
-        break;
-
-      default:
-        return; // exit this handler for other keys
-    }
-    e.preventDefault(); // prevent the default action (scroll / move caret)
-  });

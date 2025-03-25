@@ -1,6 +1,6 @@
-$main-color : #FF7766;
-$costom-color : #EEE;
-
+@import './ver';
+@import './project.scss';
+@import './blog.scss';
 @font-face {
     font-family: 'Cairo-Regular';
     src: url('../fonts/Cairo-Regular.ttf') format('truetype');

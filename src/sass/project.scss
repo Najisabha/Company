@@ -1,6 +1,3 @@
-$main-color : #FF7766;
-$costom-color : #EEE;
-
 .banner {
     position: relative;
     #banner-img {
@@ -43,19 +40,35 @@ $costom-color : #EEE;
         }
     }
 }
-  .btn, button {
+.btn, button {
     &:focus,
     &:active {
       outline: none !important;
       box-shadow: none !important;
     }
-  }
-  
-  #image-gallery .modal-footer{
+} 
+#image-gallery .modal-footer{
     display: block;
-  }
-  
-  .thumb{
+}
+.thumb{
     margin-top: 15px;
     margin-bottom: 15px;
+}
+.project-details {
+  .card{
+    .card-body{
+      .card-title {
+        font-weight: 800;
+        color: $main-color;
+      }
+    }
   }
+}
+@media (max-width: 576px){
+  .project-details {
+    .thumb {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
+}
