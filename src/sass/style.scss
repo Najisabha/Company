@@ -1,6 +1,7 @@
-@import './ver';
-@import './project.scss';
-@import './blog.scss';
+@use './project.scss' as *;
+@use './ver' as *;
+@use './blog.scss' as *;
+
 @font-face {
     font-family: 'Cairo-Regular';
     src: url('../fonts/Cairo-Regular.ttf') format('truetype');
@@ -25,7 +26,7 @@ body {
     width: 250px !important;
     border-radius: 10px !important;
     &:hover {
-        background-color: $costom-color !important;
+        background-color: $custom-color !important;
         color: #000;
         transform: scale(1.1);
         transition: 0.2s all ease;
@@ -36,16 +37,16 @@ body {
     }
 } 
 .custom-btn {
-    background-color: #fff !important;
-    color: $main-color !important;
-    border: 1px solid $main-color !important;
-    padding: 10px 20px !important;
-    border-radius: 5px !important;
-    margin-top: 20px !important;
-    transition: 0.5s all ease !important;
+    background-color: #fff ;
+    color: $main-color ;
+    border: 1px solid $main-color;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px ;
+    transition: 0.5s all ease ;
     &:hover {
-        background-color: $main-color !important;
-        color: #fff !important;
+        background-color: $main-color ;
+        color: #fff ;
     }
 }
 .top-menu {
@@ -60,14 +61,14 @@ body {
                     transition: 0.5s all ease;
                     &:hover {
                         color: $main-color !important;
-                        background-color: $costom-color !important;
+                        background-color: $custom-color !important;
                         border-bottom: 1px solid $main-color !important;
                     }
                    }
             }
             .actives {
                 color: $main-color !important;
-                background-color: $costom-color !important;
+                background-color: $custom-color !important;
                 border-bottom: 1px solid $main-color !important;
             }
     }
@@ -116,7 +117,7 @@ body {
             }
             h4 {
                 width: 60%;
-                color: $costom-color;
+                color: $custom-color;
             }
           }
         }
@@ -235,17 +236,17 @@ footer {
     height: 450px;
     background-color: #393939;
     h2 {
-        color: $costom-color;
+        color: $custom-color;
         font-size: 150%;
     }
     .line1{
         width: 5%;
-        border-top: 3px solid $costom-color;
+        border-top: 3px solid $custom-color;
         margin: auto ;
     }
     .line2 {
         width: 70%;
-        border-top: 3px solid $costom-color;
+        border-top: 3px solid $custom-color;
         margin: auto ;
     }
     #footer-nav-links {
@@ -271,14 +272,14 @@ footer {
             border: 0px;
             &:focus {
                 border-color: $main-color;
-                box-shadow: 0 0 2px 0 $costom-color;
+                box-shadow: 0 0 2px 0 $custom-color;
                 color: $main-color;
             }
         }
         .btn-light {
             &:hover,
             &:focus {
-                color: $costom-color !important;
+                color: $custom-color !important;
                 background-color: #363636 !important;
                 border: 1px solid $main-color !important;
                 transition: 0.3s !important;
@@ -296,7 +297,7 @@ footer {
         font-weight: bold;
         text-decoration: none;
         &:hover {
-            color: $costom-color;
+            color: $custom-color;
         }
     }
 }

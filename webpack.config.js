@@ -100,9 +100,9 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: "css/style.css",
     }),
-    new MiniCssExtractPlugin({
-      filename: "css/project.css",
-    }),
+    // new MiniCssExtractPlugin({
+    //   filename: "css/project.css",
+    // }),
 
   ],
 };

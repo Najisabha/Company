@@ -16,7 +16,7 @@
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      (function() {\n        var localsJsonString = undefined;\n        // 1742881829184\n        var cssReload = __webpack_require__(/*! ../../../mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {});\n        // only invalidate when locals change\n        if (\n          module.hot.data &&\n          module.hot.data.value &&\n          module.hot.data.value !== localsJsonString\n        ) {\n          module.hot.invalidate();\n        } else {\n          module.hot.accept();\n        }\n        module.hot.dispose(function(data) {\n          data.value = localsJsonString;\n          cssReload();\n        });\n      })();\n    }\n  \n\n//# sourceURL=webpack://company/./node_modules/@fortawesome/fontawesome-free/css/all.min.css?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      (function() {\n        var localsJsonString = undefined;\n        // 1742896704491\n        var cssReload = __webpack_require__(/*! ../../../mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {});\n        // only invalidate when locals change\n        if (\n          module.hot.data &&\n          module.hot.data.value &&\n          module.hot.data.value !== localsJsonString\n        ) {\n          module.hot.invalidate();\n        } else {\n          module.hot.accept();\n        }\n        module.hot.dispose(function(data) {\n          data.value = localsJsonString;\n          cssReload();\n        });\n      })();\n    }\n  \n\n//# sourceURL=webpack://company/./node_modules/@fortawesome/fontawesome-free/css/all.min.css?");
 
 /***/ }),
 
@@ -37,7 +37,7 @@ eval("/*!\n * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com\
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      (function() {\n        var localsJsonString = undefined;\n        // 1742881828936\n        var cssReload = __webpack_require__(/*! ../../../../mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {});\n        // only invalidate when locals change\n        if (\n          module.hot.data &&\n          module.hot.data.value &&\n          module.hot.data.value !== localsJsonString\n        ) {\n          module.hot.invalidate();\n        } else {\n          module.hot.accept();\n        }\n        module.hot.dispose(function(data) {\n          data.value = localsJsonString;\n          cssReload();\n        });\n      })();\n    }\n  \n\n//# sourceURL=webpack://company/./node_modules/@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      (function() {\n        var localsJsonString = undefined;\n        // 1742896704504\n        var cssReload = __webpack_require__(/*! ../../../../mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {});\n        // only invalidate when locals change\n        if (\n          module.hot.data &&\n          module.hot.data.value &&\n          module.hot.data.value !== localsJsonString\n        ) {\n          module.hot.invalidate();\n        } else {\n          module.hot.accept();\n        }\n        module.hot.dispose(function(data) {\n          data.value = localsJsonString;\n          cssReload();\n        });\n      })();\n    }\n  \n\n//# sourceURL=webpack://company/./node_modules/@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css?");
 
 /***/ }),
 
@@ -268,9 +268,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jque
 /*!*******************************!*\
   !*** ./src/sass/project.scss ***!
   \*******************************/
-/***/ (() => {
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\nHookWebpackError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\\nUndefined variable.\\n\\u001b[34m   ╷\\u001b[0m\\n\\u001b[34m39 │\\u001b[0m             background-color: \\u001b[31m$main-color\\u001b[0m;\\r\\n\\u001b[34m   │\\u001b[0m \\u001b[31m                              ^^^^^^^^^^^\\u001b[0m\\n\\u001b[34m   ╵\\u001b[0m\\n  src\\\\sass\\\\project.scss 39:31  root stylesheet\\n    at tryRunOrWebpackError (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\HookWebpackError.js:86:9)\\n    at __webpack_require_module__ (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5301:12)\\n    at __webpack_require__ (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5258:18)\\n    at C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5330:20\\n    at symbolIterator (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\neo-async\\\\async.js:3485:9)\\n    at done (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\neo-async\\\\async.js:3527:9)\\n    at Hook.eval [as callAsync] (eval at create (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\tapable\\\\lib\\\\HookCodeFactory.js:33:10), <anonymous>:15:1)\\n    at C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5236:43\\n    at symbolIterator (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\neo-async\\\\async.js:3482:9)\\n    at timesSync (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\neo-async\\\\async.js:2297:7)\\n-- inner error --\\nError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\\nUndefined variable.\\n\\u001b[34m   ╷\\u001b[0m\\n\\u001b[34m39 │\\u001b[0m             background-color: \\u001b[31m$main-color\\u001b[0m;\\r\\n\\u001b[34m   │\\u001b[0m \\u001b[31m                              ^^^^^^^^^^^\\u001b[0m\\n\\u001b[34m   ╵\\u001b[0m\\n  src\\\\sass\\\\project.scss 39:31  root stylesheet\\n    at Object.<anonymous> (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\css-loader\\\\dist\\\\cjs.js!C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\sass-loader\\\\dist\\\\cjs.js!C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\src\\\\sass\\\\project.scss:1:7)\\n    at C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\javascript\\\\JavascriptModulesPlugin.js:494:10\\n    at Hook.eval [as call] (eval at create (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\tapable\\\\lib\\\\HookCodeFactory.js:19:10), <anonymous>:7:1)\\n    at C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5303:39\\n    at tryRunOrWebpackError (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\HookWebpackError.js:81:7)\\n    at __webpack_require_module__ (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5301:12)\\n    at __webpack_require__ (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5258:18)\\n    at C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5330:20\\n    at symbolIterator (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\neo-async\\\\async.js:3485:9)\\n    at done (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\neo-async\\\\async.js:3527:9)\\n\\nGenerated code for C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\css-loader\\\\dist\\\\cjs.js!C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\sass-loader\\\\dist\\\\cjs.js!C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\src\\\\sass\\\\project.scss\\n1 | throw new Error(\\\"Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\\\\nUndefined variable.\\\\n\\\\u001b[34m   ╷\\\\u001b[0m\\\\n\\\\u001b[34m39 │\\\\u001b[0m             background-color: \\\\u001b[31m$main-color\\\\u001b[0m;\\\\r\\\\n\\\\u001b[34m   │\\\\u001b[0m \\\\u001b[31m                              ^^^^^^^^^^^\\\\u001b[0m\\\\n\\\\u001b[34m   ╵\\\\u001b[0m\\\\n  src\\\\\\\\sass\\\\\\\\project.scss 39:31  root stylesheet\\\");\");\n\n//# sourceURL=webpack://company/./src/sass/project.scss?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      (function() {\n        var localsJsonString = undefined;\n        // 1742896704739\n        var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {});\n        // only invalidate when locals change\n        if (\n          module.hot.data &&\n          module.hot.data.value &&\n          module.hot.data.value !== localsJsonString\n        ) {\n          module.hot.invalidate();\n        } else {\n          module.hot.accept();\n        }\n        module.hot.dispose(function(data) {\n          data.value = localsJsonString;\n          cssReload();\n        });\n      })();\n    }\n  \n\n//# sourceURL=webpack://company/./src/sass/project.scss?");
 
 /***/ }),
 
@@ -278,9 +279,10 @@ eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extrac
 /*!*****************************!*\
   !*** ./src/sass/style.scss ***!
   \*****************************/
-/***/ (() => {
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\nHookWebpackError: Cannot find module '../images/blog-banner.jpg'\\n    at tryRunOrWebpackError (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\HookWebpackError.js:86:9)\\n    at __webpack_require_module__ (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5301:12)\\n    at __webpack_require__ (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5258:18)\\n    at C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5330:20\\n    at symbolIterator (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\neo-async\\\\async.js:3485:9)\\n    at done (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\neo-async\\\\async.js:3527:9)\\n    at Hook.eval [as callAsync] (eval at create (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\tapable\\\\lib\\\\HookCodeFactory.js:33:10), <anonymous>:15:1)\\n    at C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5236:43\\n    at symbolIterator (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\neo-async\\\\async.js:3482:9)\\n    at timesSync (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\neo-async\\\\async.js:2297:7)\\n-- inner error --\\nError: Cannot find module '../images/blog-banner.jpg'\\n    at webpackMissingModule (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\css-loader\\\\dist\\\\cjs.js!C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\sass-loader\\\\dist\\\\cjs.js!C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\src\\\\sass\\\\style.scss:16:113)\\n    at Module.<anonymous> (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\css-loader\\\\dist\\\\cjs.js!C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\sass-loader\\\\dist\\\\cjs.js!C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\src\\\\sass\\\\style.scss:16:213)\\n    at C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\javascript\\\\JavascriptModulesPlugin.js:494:10\\n    at Hook.eval [as call] (eval at create (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\tapable\\\\lib\\\\HookCodeFactory.js:19:10), <anonymous>:7:1)\\n    at C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5303:39\\n    at tryRunOrWebpackError (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\HookWebpackError.js:81:7)\\n    at __webpack_require_module__ (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5301:12)\\n    at __webpack_require__ (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5258:18)\\n    at C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\webpack\\\\lib\\\\Compilation.js:5330:20\\n    at symbolIterator (C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\neo-async\\\\async.js:3485:9)\\n\\nGenerated code for C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\css-loader\\\\dist\\\\cjs.js!C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\node_modules\\\\sass-loader\\\\dist\\\\cjs.js!C:\\\\Users\\\\Naji\\\\Desktop\\\\Company\\\\src\\\\sass\\\\style.scss\\n  1 | __webpack_require__.r(__webpack_exports__);\\n  2 | /* harmony export */ __webpack_require__.d(__webpack_exports__, {\\n  3 | /* harmony export */   \\\"default\\\": () => (__WEBPACK_DEFAULT_EXPORT__)\\n  4 | /* harmony export */ });\\n  5 | /* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \\\"C:\\\\\\\\Users\\\\\\\\Naji\\\\\\\\Desktop\\\\\\\\Company\\\\\\\\node_modules\\\\\\\\css-loader\\\\\\\\dist\\\\\\\\runtime\\\\\\\\noSourceMaps.js\\\");\\n  6 | /* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\\n  7 | /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \\\"C:\\\\\\\\Users\\\\\\\\Naji\\\\\\\\Desktop\\\\\\\\Company\\\\\\\\node_modules\\\\\\\\css-loader\\\\\\\\dist\\\\\\\\runtime\\\\\\\\api.js\\\");\\n  8 | /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\\n  9 | /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \\\"C:\\\\\\\\Users\\\\\\\\Naji\\\\\\\\Desktop\\\\\\\\Company\\\\\\\\node_modules\\\\\\\\css-loader\\\\\\\\dist\\\\\\\\runtime\\\\\\\\getUrl.js\\\");\\n 10 | /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\\n 11 | // Imports\\n 12 | \\n 13 | \\n 14 | \\n 15 | var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../images/projects-banner.jpg */ \\\"asset/resource|C:\\\\\\\\Users\\\\\\\\Naji\\\\\\\\Desktop\\\\\\\\Company\\\\\\\\src\\\\\\\\images\\\\\\\\projects-banner.jpg\\\"), __webpack_require__.b);\\n 16 | var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ Object(function webpackMissingModule() { var e = new Error(\\\"Cannot find module '../images/blog-banner.jpg'\\\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), __webpack_require__.b);\\n 17 | var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/Cairo-Regular.ttf */ \\\"asset/resource|C:\\\\\\\\Users\\\\\\\\Naji\\\\\\\\Desktop\\\\\\\\Company\\\\\\\\src\\\\\\\\fonts\\\\\\\\Cairo-Regular.ttf\\\"), __webpack_require__.b);\\n 18 | var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\\n 19 | var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\\n 20 | var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\\n 21 | var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\\n 22 | // Module\\n 23 | ___CSS_LOADER_EXPORT___.push([module.id, `.banner {\\n 24 |   position: relative;\\n 25 | }\\n 26 | .banner #banner-img {\\n 27 |   background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\\n 28 |   background-repeat: no-repeat;\\n 29 |   background-position: 50% 10%;\\n 30 |   height: 250px;\\n 31 | }\\n 32 | .banner .overlay {\\n 33 |   position: absolute;\\n 34 |   background-color: rgba(65, 155, 155, 0.5);\\n 35 |   top: 0;\\n 36 |   right: 0;\\n 37 |   height: 100%;\\n 38 |   width: 100%;\\n 39 |   display: flex !important;\\n 40 |   align-items: center;\\n 41 |   justify-content: center;\\n 42 | }\\n 43 | .banner .title1 {\\n 44 |   font-weight: bold;\\n 45 |   color: #fff;\\n 46 | }\\n 47 | \\n 48 | .our-works .custom-btn-2 {\\n 49 |   color: #363636;\\n 50 |   background-color: #fff;\\n 51 |   border: none;\\n 52 |   border-radius: 1px;\\n 53 |   font-weight: bold;\\n 54 |   position: absolute;\\n 55 |   top: 20px;\\n 56 |   right: 25px;\\n 57 | }\\n 58 | .our-works .custom-btn-2:hover, .our-works .custom-btn-2:focus {\\n 59 |   color: #ffffff;\\n 60 |   background-color: #FF7766;\\n 61 | }\\n 62 | \\n 63 | .btn:focus, .btn:active, button:focus, button:active {\\n 64 |   outline: none !important;\\n 65 |   box-shadow: none !important;\\n 66 | }\\n 67 | \\n 68 | #image-gallery .modal-footer {\\n 69 |   display: block;\\n 70 | }\\n 71 | \\n 72 | .thumb {\\n 73 |   margin-top: 15px;\\n 74 |   margin-bottom: 15px;\\n 75 | }\\n 76 | \\n 77 | .project-details .card .card-body .card-title {\\n 78 |   font-weight: 800;\\n 79 |   color: #FF7766;\\n 80 | }\\n 81 | \\n 82 | @media (max-width: 576px) {\\n 83 |   .project-details .thumb {\\n 84 |     margin-left: 15px;\\n 85 |     margin-right: 15px;\\n 86 |   }\\n 87 | }\\n 88 | .banner-blog #banner-img {\\n 89 |   background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});\\n 90 |   background-repeat: no-repeat;\\n 91 |   background-position: 50% 10%;\\n 92 |   height: 250px;\\n 93 | }\\n 94 | \\n 95 | @font-face {\\n 96 |   font-family: \\\"Cairo-Regular\\\";\\n 97 |   src: url(${___CSS_LOADER_URL_REPLACEMENT_2___}) format(\\\"truetype\\\");\\n 98 |   font-weight: normal;\\n 99 |   font-style: normal;\\n100 | }\\n101 | body {\\n102 |   font-family: \\\"Cairo-Regular\\\", sans-serif !important;\\n103 |   font-size: 16px;\\n104 |   line-height: 1.6;\\n105 | }\\n106 | \\n107 | .container-fluid {\\n108 |   padding-right: 0 !important;\\n109 |   padding-left: 0 !important;\\n110 |   overflow-x: hidden;\\n111 | }\\n112 | \\n113 | .custom-btn-main {\\n114 |   padding: 20px !important;\\n115 |   background-color: #FF7766 !important;\\n116 |   color: #fff;\\n117 |   font-weight: bold;\\n118 |   width: 250px !important;\\n119 |   border-radius: 10px !important;\\n120 | }\\n121 | .custom-btn-main:hover {\\n122 |   background-color: #EEE !important;\\n123 |   color: #000;\\n124 |   transform: scale(1.1);\\n125 |   transition: 0.2s all ease;\\n126 | }\\n127 | .custom-btn-main:active {\\n128 |   transform: scale(0.9);\\n129 |   transition: 0.2s all ease;\\n130 | }\\n131 | \\n132 | .custom-btn {\\n133 |   background-color: #fff !important;\\n134 |   color: #FF7766 !important;\\n135 |   border: 1px solid #FF7766 !important;\\n136 |   padding: 10px 20px !important;\\n137 |   border-radius: 5px !important;\\n138 |   margin-top: 20px !important;\\n139 |   transition: 0.5s all ease !important;\\n140 | }\\n141 | .custom-btn:hover {\\n142 |   background-color: #FF7766 !important;\\n143 |   color: #fff !important;\\n144 | }\\n145 | \\n146 | .top-menu .navbar {\\n147 |   font-weight: bold;\\n148 |   padding: 0 10px !important;\\n149 |   background-color: #fff !important;\\n150 | }\\n151 | .top-menu .navbar .navbar-nav li > a {\\n152 |   color: #8a8a8a;\\n153 |   transition: 0.5s all ease;\\n154 | }\\n155 | .top-menu .navbar .navbar-nav li > a:hover {\\n156 |   color: #FF7766 !important;\\n157 |   background-color: #EEE !important;\\n158 |   border-bottom: 1px solid #FF7766 !important;\\n159 | }\\n160 | .top-menu .navbar .actives {\\n161 |   color: #FF7766 !important;\\n162 |   background-color: #EEE !important;\\n163 |   border-bottom: 1px solid #FF7766 !important;\\n164 | }\\n165 | \\n166 | .carrousel-top .row {\\n167 |   display: block !important;\\n168 | }\\n169 | .carrousel-top .row .carousel .carousel-inner .carousel-item img {\\n170 |   height: 450px;\\n171 | }\\n172 | .carrousel-top .row .carousel .carousel-inner .carousel-item .overlay {\\n173 |   position: absolute;\\n174 |   top: 0;\\n175 |   right: 0;\\n176 |   width: 100%;\\n177 |   height: 100%;\\n178 |   background-color: rgba(65, 155, 155, 0.7);\\n179 |   color: #fff;\\n180 |   display: flex !important;\\n181 |   justify-content: center;\\n182 |   align-items: center;\\n183 | }\\n184 | .carrousel-top .row .carousel .carousel-indicators li {\\n185 |   height: 20px;\\n186 |   width: 20px;\\n187 |   border-radius: 50%;\\n188 |   margin: 20px 5px 0 0;\\n189 | }\\n190 | .carrousel-top .row .carousel .carousel-indicators li.active {\\n191 |   background-color: #FF7766;\\n192 | }\\n193 | .carrousel-top .row .carousel .carousel-caption h1 {\\n194 |   font-weight: bold;\\n195 |   color: #fff;\\n196 |   margin-bottom: 50px;\\n197 | }\\n198 | .carrousel-top .row .carousel .carousel-caption h4 {\\n199 |   width: 60%;\\n200 |   color: #EEE;\\n201 | }\\n202 | \\n203 | .who-are-we .custom-paragraph {\\n204 |   line-height: 2em;\\n205 | }\\n206 | \\n207 | .latest-projects {\\n208 |   background-color: #ffffcc;\\n209 | }\\n210 | .latest-projects #latest-company-projects {\\n211 |   width: 80%;\\n212 | }\\n213 | .latest-projects #latest-company-projects .thumbnali2 {\\n214 |   position: relative;\\n215 |   margin-bottom: 20px;\\n216 |   margin-top: 20px;\\n217 | }\\n218 | .latest-projects #latest-company-projects .thumbnali2 .caption2 {\\n219 |   position: absolute;\\n220 |   top: 0;\\n221 |   left: 0;\\n222 |   background-color: rgba(65, 155, 155, 0.7);\\n223 |   max-width: 100%;\\n224 |   height: 100%;\\n225 |   padding: 2%;\\n226 |   text-align: center;\\n227 |   color: #fff !important;\\n228 |   display: none;\\n229 | }\\n230 | .latest-projects #latest-company-projects .thumbnali2 .project-category {\\n231 |   position: absolute;\\n232 |   top: 5%;\\n233 |   right: 0;\\n234 |   background-color: rgba(240, 240, 240, 0.75);\\n235 |   font-weight: bold;\\n236 |   padding: 10px;\\n237 |   border-top-left-radius: 10px;\\n238 |   border-bottom-left-radius: 10px;\\n239 |   box-shadow: 0px 5px 20px 0px #200000;\\n240 | }\\n241 | .latest-projects #latest-company-projects a.carousel-control-prev {\\n242 |   position: absolute;\\n243 |   left: -5%;\\n244 |   color: #252525;\\n245 |   width: 0;\\n246 | }\\n247 | .latest-projects #latest-company-projects a.carousel-control-next {\\n248 |   position: absolute;\\n249 |   right: -6%;\\n250 |   color: #252525;\\n251 |   width: 0;\\n252 | }\\n253 | \\n254 | .project-details {\\n255 |   display: -webkit-box;\\n256 |   -webkit-line-clamp: 2;\\n257 |   -webkit-box-orient: vertical;\\n258 |   overflow: hidden;\\n259 | }\\n260 | \\n261 | .said-about-company .custom-img {\\n262 |   border-radius: 10px;\\n263 |   margin: 15px;\\n264 | }\\n265 | .said-about-company .custom-paragraph {\\n266 |   line-height: 2em;\\n267 | }\\n268 | .said-about-company .carousel-control-prev,\\n269 | .said-about-company .carousel-control-next {\\n270 |   color: #252222;\\n271 | }\\n272 | .said-about-company .carousel-control-prev:hover, .said-about-company .carousel-control-prev:focus, .said-about-company .carousel-control-prev:active,\\n273 | .said-about-company .carousel-control-next:hover,\\n274 | .said-about-company .carousel-control-next:focus,\\n275 | .said-about-company .carousel-control-next:active {\\n276 |   color: #FF7766;\\n277 | }\\n278 | .said-about-company a.carousel-control-prev {\\n279 |   position: absolute;\\n280 |   left: 5%;\\n281 |   color: #252525;\\n282 |   width: 0;\\n283 | }\\n284 | .said-about-company a.carousel-control-next {\\n285 |   position: absolute;\\n286 |   right: 5%;\\n287 |   color: #252525;\\n288 |   width: 0;\\n289 | }\\n290 | \\n291 | .clients {\\n292 |   background-color: aqua;\\n293 | }\\n294 | \\n295 | .latest-posts .card-body {\\n296 |   width: 90%;\\n297 |   border: 1px solid #ccc;\\n298 |   border-radius: 5px;\\n299 |   position: relative;\\n300 |   background-color: #fff;\\n301 |   top: -17px;\\n302 |   left: -5%;\\n303 | }\\n304 | .latest-posts .card-title {\\n305 |   font-weight: bold;\\n306 |   font-size: 18px;\\n307 | }\\n308 | .latest-posts .card-text {\\n309 |   font-size: 16px;\\n310 | }\\n311 | \\n312 | footer {\\n313 |   height: 450px;\\n314 |   background-color: #393939;\\n315 | }\\n316 | footer h2 {\\n317 |   color: #EEE;\\n318 |   font-size: 150%;\\n319 | }\\n320 | footer .line1 {\\n321 |   width: 5%;\\n322 |   border-top: 3px solid #EEE;\\n323 |   margin: auto;\\n324 | }\\n325 | footer .line2 {\\n326 |   width: 70%;\\n327 |   border-top: 3px solid #EEE;\\n328 |   margin: auto;\\n329 | }\\n330 | footer #footer-nav-links a {\\n331 |   text-decoration: none;\\n332 |   color: #bbb;\\n333 |   margin-left: 15px;\\n334 |   font-size: 90%;\\n335 | }\\n336 | footer #footer-nav-links a:hover {\\n337 |   color: #FF7766;\\n338 | }\\n339 | footer #footer-form {\\n340 |   direction: ltr;\\n341 |   width: 40%;\\n342 |   margin: auto;\\n343 | }\\n344 | footer .form input {\\n345 |   background-color: #202020;\\n346 |   border-radius: 1px;\\n347 |   border: 0px;\\n348 | }\\n349 | footer .form input:focus {\\n350 |   border-color: #FF7766;\\n351 |   box-shadow: 0 0 2px 0 #EEE;\\n352 |   color: #FF7766;\\n353 | }\\n354 | footer .form .btn-light:hover, footer .form .btn-light:focus {\\n355 |   color: #EEE !important;\\n356 |   background-color: #363636 !important;\\n357 |   border: 1px solid #FF7766 !important;\\n358 |   transition: 0.3s !important;\\n359 | }\\n360 | footer .copyright {\\n361 |   color: #bbb;\\n362 |   font-size: 90%;\\n363 |   font-weight: bold;\\n364 | }\\n365 | footer .copyright-link {\\n366 |   color: #FF7766;\\n367 |   font-size: 90%;\\n368 |   font-weight: bold;\\n369 |   text-decoration: none;\\n370 | }\\n371 | footer .copyright-link:hover {\\n372 |   color: #EEE;\\n373 | }\\n374 | \\n375 | @media (max-width: 991px) {\\n376 |   .top-menu .navbar {\\n377 |     padding: 0px !important;\\n378 |   }\\n379 | }\\n380 | @media (max-width: 767px) {\\n381 |   .carrousel-top .row .carousel .carousel-inner .carousel-item img {\\n382 |     height: 300px;\\n383 |   }\\n384 |   .carrousel-top .row .carousel .carousel-caption h1 {\\n385 |     font-size: 30px;\\n386 |   }\\n387 |   .carrousel-top .row .carousel .carousel-caption h4 {\\n388 |     width: 100%;\\n389 |   }\\n390 |   footer #footer-form {\\n391 |     width: 90%;\\n392 |   }\\n393 | }`, \\\"\\\"]);\\n394 | // Exports\\n395 | /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\\n396 | \");\n\n//# sourceURL=webpack://company/./src/sass/style.scss?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      (function() {\n        var localsJsonString = undefined;\n        // 1742897756830\n        var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {});\n        // only invalidate when locals change\n        if (\n          module.hot.data &&\n          module.hot.data.value &&\n          module.hot.data.value !== localsJsonString\n        ) {\n          module.hot.invalidate();\n        } else {\n          module.hot.accept();\n        }\n        module.hot.dispose(function(data) {\n          data.value = localsJsonString;\n          cssReload();\n        });\n      })();\n    }\n  \n\n//# sourceURL=webpack://company/./src/sass/style.scss?");
 
 /***/ })
 
@@ -365,15 +367,6 @@ eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extrac
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/get mini-css chunk filename */
-/******/ 	(() => {
-/******/ 		// This function allow to reference async chunks
-/******/ 		__webpack_require__.miniCssF = (chunkId) => {
-/******/ 			// return url for filenames based on template
-/******/ 			return undefined;
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/get update manifest filename */
 /******/ 	(() => {
 /******/ 		__webpack_require__.hmrF = () => ("main." + __webpack_require__.h() + ".hot-update.json");
@@ -381,7 +374,7 @@ eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extrac
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("98ad262e648b72be055c")
+/******/ 		__webpack_require__.h = () => ("c6bd2f524e6af930e4f6")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -852,107 +845,6 @@ eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extrac
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
 /******/ 		__webpack_require__.p = "/";
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/css loading */
-/******/ 	(() => {
-/******/ 		if (typeof document === "undefined") return;
-/******/ 		var createStylesheet = (chunkId, fullhref, oldTag, resolve, reject) => {
-/******/ 			var linkTag = document.createElement("link");
-/******/ 		
-/******/ 			linkTag.rel = "stylesheet";
-/******/ 			linkTag.type = "text/css";
-/******/ 			if (__webpack_require__.nc) {
-/******/ 				linkTag.nonce = __webpack_require__.nc;
-/******/ 			}
-/******/ 			var onLinkComplete = (event) => {
-/******/ 				// avoid mem leaks.
-/******/ 				linkTag.onerror = linkTag.onload = null;
-/******/ 				if (event.type === 'load') {
-/******/ 					resolve();
-/******/ 				} else {
-/******/ 					var errorType = event && event.type;
-/******/ 					var realHref = event && event.target && event.target.href || fullhref;
-/******/ 					var err = new Error("Loading CSS chunk " + chunkId + " failed.\n(" + errorType + ": " + realHref + ")");
-/******/ 					err.name = "ChunkLoadError";
-/******/ 					err.code = "CSS_CHUNK_LOAD_FAILED";
-/******/ 					err.type = errorType;
-/******/ 					err.request = realHref;
-/******/ 					if (linkTag.parentNode) linkTag.parentNode.removeChild(linkTag)
-/******/ 					reject(err);
-/******/ 				}
-/******/ 			}
-/******/ 			linkTag.onerror = linkTag.onload = onLinkComplete;
-/******/ 			linkTag.href = fullhref;
-/******/ 		
-/******/ 		
-/******/ 			if (oldTag) {
-/******/ 				oldTag.parentNode.insertBefore(linkTag, oldTag.nextSibling);
-/******/ 			} else {
-/******/ 				document.head.appendChild(linkTag);
-/******/ 			}
-/******/ 			return linkTag;
-/******/ 		};
-/******/ 		var findStylesheet = (href, fullhref) => {
-/******/ 			var existingLinkTags = document.getElementsByTagName("link");
-/******/ 			for(var i = 0; i < existingLinkTags.length; i++) {
-/******/ 				var tag = existingLinkTags[i];
-/******/ 				var dataHref = tag.getAttribute("data-href") || tag.getAttribute("href");
-/******/ 				if(tag.rel === "stylesheet" && (dataHref === href || dataHref === fullhref)) return tag;
-/******/ 			}
-/******/ 			var existingStyleTags = document.getElementsByTagName("style");
-/******/ 			for(var i = 0; i < existingStyleTags.length; i++) {
-/******/ 				var tag = existingStyleTags[i];
-/******/ 				var dataHref = tag.getAttribute("data-href");
-/******/ 				if(dataHref === href || dataHref === fullhref) return tag;
-/******/ 			}
-/******/ 		};
-/******/ 		var loadStylesheet = (chunkId) => {
-/******/ 			return new Promise((resolve, reject) => {
-/******/ 				var href = __webpack_require__.miniCssF(chunkId);
-/******/ 				var fullhref = __webpack_require__.p + href;
-/******/ 				if(findStylesheet(href, fullhref)) return resolve();
-/******/ 				createStylesheet(chunkId, fullhref, null, resolve, reject);
-/******/ 			});
-/******/ 		}
-/******/ 		// no chunk loading
-/******/ 		
-/******/ 		var oldTags = [];
-/******/ 		var newTags = [];
-/******/ 		var applyHandler = (options) => {
-/******/ 			return { dispose: () => {
-/******/ 				for(var i = 0; i < oldTags.length; i++) {
-/******/ 					var oldTag = oldTags[i];
-/******/ 					if(oldTag.parentNode) oldTag.parentNode.removeChild(oldTag);
-/******/ 				}
-/******/ 				oldTags.length = 0;
-/******/ 			}, apply: () => {
-/******/ 				for(var i = 0; i < newTags.length; i++) newTags[i].rel = "stylesheet";
-/******/ 				newTags.length = 0;
-/******/ 			} };
-/******/ 		}
-/******/ 		__webpack_require__.hmrC.miniCss = (chunkIds, removedChunks, removedModules, promises, applyHandlers, updatedModulesList) => {
-/******/ 			applyHandlers.push(applyHandler);
-/******/ 			chunkIds.forEach((chunkId) => {
-/******/ 				var href = __webpack_require__.miniCssF(chunkId);
-/******/ 				var fullhref = __webpack_require__.p + href;
-/******/ 				var oldTag = findStylesheet(href, fullhref);
-/******/ 				if(!oldTag) return;
-/******/ 				promises.push(new Promise((resolve, reject) => {
-/******/ 					var tag = createStylesheet(chunkId, fullhref, oldTag, () => {
-/******/ 						tag.as = "style";
-/******/ 						tag.rel = "preload";
-/******/ 						resolve();
-/******/ 					}, reject);
-/******/ 					oldTags.push(oldTag);
-/******/ 					newTags.push(tag);
-/******/ 				}));
-/******/ 			});
-/******/ 		}
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/css loading */
