@@ -15,6 +15,16 @@
         border: 1px solid $custom-color;
         border-radius: 10px;
     }
+    .card {
+        .card-body {
+            .card-text {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                color: $card-text-color;
+            }
+        }
+    }
 }
 .form-control {
     &:focus {

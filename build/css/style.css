@@ -17734,6 +17734,12 @@ a.text-dark:focus, a.text-dark:hover {
   border: 1px solid #EEE;
   border-radius: 10px;
 }
+.post .card .card-body .card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #a9a9a9;
+}
 
 .form-control:focus {
   border-color: #FF7766 !important;
