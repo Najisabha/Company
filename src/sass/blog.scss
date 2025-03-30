@@ -36,3 +36,51 @@
     padding: 10px !important;
     margin: 0 !important;
 }
+.posts-details {
+    .card {
+        .card-body {
+            .card-text {
+                color: $card-text-color;
+            }
+            .card-title {
+                font-weight: 800;
+                color: $main-color;
+            }
+        }
+    }
+}
+.one-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $card-text-color;
+    color: $card-text-color;
+    width: 45px;height: 45px;
+    border-radius: 3px;
+    margin-left: 10px;
+    float: left;
+}
+.facebook-social{
+    &:hover{
+        background-color: #3b5998;
+        color: #fff;
+    }
+}
+.instagram-social{
+    &:hover{
+        background-color: #e1306c;
+        color: #fff;
+    }
+}
+.twitter-social{
+    &:hover{
+        background-color: #1daaf2;
+        color: #fff;
+    }
+}
+.linked-social{
+    &:hover{
+        background-color: #0077b0;
+        color: #fff;
+    }
+}

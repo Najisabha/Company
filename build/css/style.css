@@ -17751,6 +17751,47 @@ a.text-dark:focus, a.text-dark:hover {
   margin: 0 !important;
 }
 
+.posts-details .card .card-body .card-text {
+  color: #a9a9a9;
+}
+.posts-details .card .card-body .card-title {
+  font-weight: 800;
+  color: #FF7766;
+}
+
+.one-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #a9a9a9;
+  color: #a9a9a9;
+  width: 45px;
+  height: 45px;
+  border-radius: 3px;
+  margin-left: 10px;
+  float: left;
+}
+
+.facebook-social:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.instagram-social:hover {
+  background-color: #e1306c;
+  color: #fff;
+}
+
+.twitter-social:hover {
+  background-color: #1daaf2;
+  color: #fff;
+}
+
+.linked-social:hover {
+  background-color: #0077b0;
+  color: #fff;
+}
+
 @font-face {
   font-family: "Cairo-Regular";
   src: url(/fonts/Cairo-Regular.ttf) format("truetype");
