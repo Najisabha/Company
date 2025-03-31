@@ -1,11 +1,12 @@
 import 'jquery';
-import 'popper.js/dist/popper.min';
-import '@laylazi/bootstrap-rtl/dist/js/bootstrap.bundle.min.js';
-import '@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css';
+import '@popperjs/core';
+import 'bootstrap/dist/css/bootstrap.min.css';  // استيراد الـ CSS الرسمي
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';  // تحميل الجافاسكريبت الرسمي
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import '@fortawesome/fontawesome-free/js/all.min.js';
 import '../sass/style.scss';
 import '../sass/project.scss';
+
 $(function(){
     $('.thumbnali2').hover(function(){
         $(this).find('.project-category').hide();
