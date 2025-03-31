@@ -1,16 +1,6 @@
 @use './project.scss' as *;
 @use './ver' as *;
 @use './blog.scss' as *;
-// @use "bootstrap/scss/bootstrap-rtl" as *;
-@use "../../node_modules/bootstrap/scss/bootstrap.scss" as *;
-@use "bootstrap/scss/functions";
-@use "bootstrap/scss/variables";
-@use "bootstrap/scss/mixins";
-@use "bootstrap";
-
-html[dir="rtl"] {
-    @use "bootstrap/scss/bootstrap-rtl" as *;
-}
 
 @font-face {
     font-family: 'Cairo-Regular';
