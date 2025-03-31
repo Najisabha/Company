@@ -20300,6 +20300,47 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+.custom-file {
+  background-color: #fff;
+  border: 1px solid rgba(106, 106, 106, 0.3058823529);
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.about-banner #banner-imgs {
+  background-image: url(/images/banner-about.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  height: 250px;
+}
+
+.our-team-line {
+  width: 10%;
+  margin: 0 auto;
+  border: 1px solid #FF7766;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.banner-contact #banner-img {
+  background-image: url(/images/banner-contact.jpg);
+}
+
+.contact-us #contact-info svg {
+  color: #FF7766;
+  margin-left: 5px;
+}
+.contact-us input[type=email] {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .contact-header {
+    margin-top: 50px;
+  }
+}
 @font-face {
   font-family: "Cairo-Regular";
   src: url(/fonts/Cairo-Regular.ttf) format("truetype");

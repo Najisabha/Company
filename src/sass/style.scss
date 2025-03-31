@@ -1,7 +1,8 @@
 @use './project.scss' as *;
 @use './ver' as *;
 @use './blog.scss' as *;
-
+@use './about.scss' as *;
+@use './contact.scss' as *;
 @font-face {
     font-family: 'Cairo-Regular';
     src: url('../fonts/Cairo-Regular.ttf') format('truetype');
