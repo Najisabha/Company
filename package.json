@@ -2,9 +2,11 @@
   "name": "company",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://najisabha.github.io/Company",
   "scripts": {
     "dev": "webpack serve --mode development",
-    "build": "webpack serve --mode production"
+    "build": "webpack serve --mode production",
+    "predeploy": "npm run build", "deploy": "gh-pages -d build"
   },
   "author": "naji",
   "license": "ISC",
@@ -27,6 +29,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "gh-pages": "^6.3.0"
   }
 }
