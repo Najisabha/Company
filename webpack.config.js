@@ -98,7 +98,7 @@ module.exports = {
       filename: 'projects.html',
     }),
     new MiniCssExtractPlugin({
-      filename: "./css/style.css",
+      filename: "css/style.css",
     }),
     // new MiniCssExtractPlugin({
     //   filename: "css/project.css",
